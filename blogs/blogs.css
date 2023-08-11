@@ -1,0 +1,21 @@
+div.content {
+  * {
+    margin: 1rem 0;
+  }
+
+  h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    list-style: disc inside;
+  }
+
+  ol {
+    list-style: cjk-ideographic inside;
+  }
+}

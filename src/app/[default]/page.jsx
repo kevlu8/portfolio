@@ -1,9 +1,7 @@
 'use client';
 import { usePathname } from 'next/navigation';
-import { useEffect, useState } from 'react';
 
-export default function Home() {
-	const [path, setpath] = useState("sexing...");
+export default function() {
 	const url = usePathname();
 	return (
 		<div className='flex flex-col items-center justify-center h-screen'>
